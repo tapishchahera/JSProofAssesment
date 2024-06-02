@@ -29,6 +29,7 @@ function mintNFT (NAME, IDNO, HEIGHT, HAIRCOLOUR) {
 function listNFTs () {
     for(let i=0; i< arrNFT.length; i++ ){
         console.log(arrNFT[i]);
+        console.log("\n");
     }
         console.log("\n");
 }
@@ -44,5 +45,6 @@ mintNFT("Rahul", 102, 178, "Black");
 mintNFT("Rohan", 103, 185, "Brown");
 mintNFT("Rohan", 104, 177, "Beige");
 mintNFT("Rohan", 105, 183, "Blue");
+
 listNFTs();
 getTotalSupply();
