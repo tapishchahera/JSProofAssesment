@@ -42,9 +42,9 @@ function getTotalSupply() {
 // call your functions below this line
 mintNFT("Rohan", 101, 180, "Black");
 mintNFT("Rahul", 102, 178, "Black");
-mintNFT("Rohan", 103, 185, "Brown");
-mintNFT("Rohan", 104, 177, "Beige");
-mintNFT("Rohan", 105, 183, "Blue");
+mintNFT("Sachin", 103, 185, "Brown");
+mintNFT("Amit", 104, 177, "Beige");
+mintNFT("Dev", 105, 183, "Blue");
 
 listNFTs();
 getTotalSupply();
